@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+.container {
+    width: 360px;
+    padding: 20px;
+    background: #f8faff;
+    color: #4b5876;
+  }
+
+  .container h1 {
+    text-align: center;
+    color: #4b5876;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #4b5876;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  input, select {
+    width: 100%;
+    margin-top: 3px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    font-size: 16px;
+    height: 40px;
+    padding: 6px 16px;
+    border-radius: 5px;
+    background-color: #eaf2fd;
+    border: 1px solid #19557d;
+    outline: 0.5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 36px;
+    margin-top: 12px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 0.25rem 0.55rem rgba(7, 9, 25, 0.35);
+  }
+  
+  #result {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  #result p {
+    font-size: 12px;
+  }
+
+  #result table {
+    width: 100%;
+    font-size: 16px;
+    border-collapse: collapse;
+  }
+
+  #result th, #result td {
+    border: 1px solid #b8b8b8;
+    padding: 8px;
+  }
+
+  .result-kid {
+    border: 1px solid #4b5876;
+    border-radius: 5px;
+    padding: 10px 16px;
+    background: #ddddd8;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}

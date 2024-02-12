@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APY Calculator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>APY Calculator</h1>
+        <div class="input-group">
+            <label for="principal">Principal Amount:</label>
+            <input type="number" id="principal" placeholder="Enter principal amount">
+        </div>
+        <div class="input-group">
+            <label for="interestRate">Annual Interest Rate (%):</label>
+            <input type="number" id="interestRate" placeholder="Enter annual interest rate">
+        </div>
+        <div class="input-group">
+            <label for="intervals">Terms (Years):</label>
+            <input type="number" id="intervals" placeholder="Enter number of years">
+        </div>
+        <div class="input-group">
+            <label for="intervals">Compounding:</label>
+            <select id="periodType" name="compound_frequency" class="currency-input">
+                <option value="yearly">Yearly
+                </option>
+                <option value="semi-annually">Semi-annually</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="bi-monthly">Bi-Monthly</option>
+                <option value="monthly">Monthly</option>
+                <option value="daily">Daily</option>
+            </select>
+        </div>
+        <button id="calculateBtn">Calculate APY</button>
+        <div id="result"></div>
+        <p style="text-align: center;">Powered by: <a href="https://margincalculator.net">MarginCalulator.net</a> | <a href="https://www.margincalculator.net/calculators/apy-calculator/">Learn More</a></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

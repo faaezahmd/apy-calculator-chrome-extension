@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
       <th>Year</th>
       <th>Future Value</th>
       <th>Interest Earned</th>
-      <th>Balance</th>
     </tr>`; // Clear previous results
 
     for (let year = 1; year <= intervals; year++) {
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
         <td><strong>${year}</strong></td>
         <td>$${futureValue.toFixed(2)}</td>
         <td>$${interestEarned.toFixed(2)}</td>
-        <td>$${(futureValue + interestEarned).toFixed(2)}</td>
       `;
       resultContainer.appendChild(yearResult);
     }
